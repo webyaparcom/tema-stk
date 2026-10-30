@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 5,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "ezld2w",
+      "dp61nl"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Yeşil Umut Derneği, doğa ve toplum için gönüllülerle çalışan kurgusal bir demo derneğidir. Dernek adı ve kütük no örnektir; üye listesi ve telefonlar yayımlanmaz.",
+    "en": "Yesil Umut Association is a fictional demo association working with volunteers for nature and society. The association name and registry number are samples; the member list and phone numbers are not published.",
+    "ar": "جمعية الأمل الأخضر جمعية تجريبية افتراضية تعمل مع المتطوعين من أجل الطبيعة والمجتمع. اسم الجمعية ورقم السجل أمثلة، ولا تُنشر قائمة الأعضاء وأرقام الهواتف."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-10-30T22:20:52.292Z",
+  "date": "2026-10-30"
+}

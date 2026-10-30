@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Yeşil Umut Derneği: çevre ve fidan dikimi çalışmaları, gönüllülük ve şeffaf bağış bilgisi. (Demo site — gerçek bağış alınmaz)",
+    "en": "Yesil Umut Association: environment and tree-planting work, volunteering and transparent donation information. (Demo site — no real donations)",
+    "ar": "جمعية الأمل الأخضر: أعمال البيئة وزراعة الأشجار والتطوع ومعلومات تبرع شفافة. (موقع تجريبي — لا تُقبل تبرعات حقيقية)"
+  },
+  "keyword": {
+    "tr": "dernek, bağış, gönüllü, çevre",
+    "en": "association, donation, volunteer, environment",
+    "ar": "جمعية، تبرع، متطوع، بيئة"
+  },
+  "category": "Kurumsal",
+  "name": "Yeşil Umut Derneği",
+  "domain": "stk.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito-sans",
+    "heading": "nunito",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#2E7D4F",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "10px",
+    "--mx-radius-md": "16px",
+    "--mx-radius-lg": "22px",
+    "--mx-radius-xl": "30px"
+  },
+  "icon": "icon.png"
+}
