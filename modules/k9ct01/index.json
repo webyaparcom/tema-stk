@@ -1,38 +1,56 @@
 {
- "name": "İletişim",
- "desing": {
-  "stil": "",
-  "color": "#000",
-  "name": {
-   "tr": "Bize Ulaşın",
-   "en": "Contact Us",
-   "ar": "اتصل بنا"
+  "name": "İletişim Tek Satır — marka renkli ince bar",
+  "description": "Marka renginde ince bir bar: başlık bir uçta, kanallar noktayla ayrılmış satır içi bağlantılar olarak öbür uçta; mobilde alt alta. Bölüm değil şerit: footer üstü ya da hero altı hızlı erişim; dikey yer neredeyse kaplamaz. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "linear_scale",
+  "category": "contact",
+  "subCategory": "inline-bar",
+  "tags": [
+    "contact",
+    "bar",
+    "inline",
+    "compact",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(20px, 3vw, 32px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "adres": "",
+    "telefon": "",
+    "eposta": "",
+    "whatsapp": "",
+    "saat": "",
+    "haritaUrl": "",
+    "haritaGomme": "",
+    "waMesaj": "",
+    "bg": "var(--mx-site-primary, #2563eb)",
+    "text": "var(--mx-site-primary-contrast, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 10%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 28%, transparent)",
+    "accent": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentInk": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentText": "var(--mx-site-primary, #2563eb)",
+    "vurguBg": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguText": "var(--mx-site-primary, #2563eb)",
+    "bgcolor": "var(--mx-site-primary, #2563eb)",
+    "color": "var(--mx-site-primary-contrast, #ffffff)"
   },
-  "margin": "30px 0px 30px 0px",
-  "linkcolor": "#1B3A6B"
- },
- "data": [
-  {
-   "icon": "phone",
-   "text": "+90",
-   "url": ""
-  },
-  {
-   "icon": "email",
-   "text": ""
-  },
-  {
-   "icon": "map",
-   "text": ""
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing",
+    "alanlar": {
+      "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+      "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+      "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+      "baslik": "dil sözlüğü (kanal etiketi)"
+    }
   }
- ],
- "category": "contact",
- "description": "İletişim bilgileri görüntüleme modülü. Telefon, email ve adres bilgilerini icon ile şık tasarımda sunar. 26 farklı projede kullanılır: kurumsal şirketler, restoranlar, e-ticaret siteleri, sağlık kuruluşları ve hizmet sektöründe. Responsive kart düzeni ve tıklanabilir telefon/email linkleri içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (çerçeveli liste, bugünkü görünüm) · \"kartli\" (her bilgi ortalı bir kart, 3→2→1 sütun) · \"koyu-panel\" (sol koyu başlık paneli primary/primary-contrast + sağda ayraçlı liste). Varyant renkleri yalnız var(--mx-site-*) token.",
- "version": "1.1.0",
- "icon": "contact_mail",
- "veri": {
-  "statik": true,
-  "dinamik": false,
-  "kaynak": "desing/data"
- }
 }
